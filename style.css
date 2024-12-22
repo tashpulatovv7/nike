@@ -3,3 +3,147 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+body {
+	font-family: sans-serif;
+	overflow-x: hidden;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.all-in {
+	background-color: #f3f2f8;
+	position: relative;
+	padding: 20px 0;
+}
+
+.inner {
+	border: 6px solid #ffffff;
+	margin: 100px 60px;
+	border-radius: 30px;
+	padding: 0 50px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 50px;
+}
+
+.logo {
+	width: 121.06px;
+	height: 32px;
+}
+
+.lines {
+	width: 40px;
+	height: 9.35px;
+	margin-top: 10px;
+}
+
+header p {
+	font-size: 18px;
+	font-weight: 700;
+	color: #323232;
+}
+
+header span {
+	font-size: 18px;
+	font-weight: 700;
+	margin-left: 10px;
+}
+
+main {
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin-top: 170px;
+	gap: 9px;
+}
+
+main p {
+	font-size: 24px;
+	font-weight: 700;
+	color: #323232;
+}
+
+h1 {
+	font-size: 180px;
+	font-weight: 700;
+	color: #ffffff;
+}
+
+.bullets {
+	width: 12px;
+	height: 129px;
+	margin-left: 30px;
+}
+
+main h2 {
+	font-size: 32px;
+	font-weight: 900;
+	color: white;
+	position: absolute;
+	bottom: -30px;
+	right: 60px;
+}
+
+.nike-logo {
+	position: absolute;
+	top: 0;
+	right: 60px;
+
+	width: 53.18px;
+	height: 19.14px;
+}
+
+.nike-jordan {
+	position: absolute;
+	left: 250px;
+	top: -240px;
+
+	width: 738.66px;
+	height: 738.66px;
+}
+
+.three60 {
+	position: absolute;
+	left: 690px;
+	top: 120px;
+
+	width: 172px;
+	height: 172px;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 212px;
+}
+
+.search {
+	width: 20px;
+	height: 20px;
+	margin-top: 30px;
+}
+
+.analys {
+	width: 20px;
+	height: 20px;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+footer p {
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.two-jordans {
+	width: 302px;
+	height: 99px;
+	margin-bottom: 25px;
+}
